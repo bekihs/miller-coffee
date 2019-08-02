@@ -339,12 +339,19 @@ text-align: center;
 position: absolute;
  }
  
+ 
+
  @media (max-width: 840px){
   #section-home img{
    top:20%;
  }
 }
 
+@media (max-width:680px){
+  #section-home img{
+   top:10%;
+ }
+}
 #section-about{
   width:100%
 }
