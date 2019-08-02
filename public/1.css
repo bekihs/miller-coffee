@@ -6,7 +6,7 @@
 
 body{
   font-family: "AssistantSemiBold";
-font-size: 1.5vw;
+font-size: 20px;
 text-align: center;
  }
     .option-beans h4{
@@ -15,7 +15,7 @@ text-align: center;
   h2{
     text-transform: uppercase;
     font-weight: bold;
-    font-size:3.2vw;
+    font-size:38px;
   }
   #section-beans h2{
     color:rgb(194,148,138)
@@ -371,16 +371,16 @@ ol.carousel-indicators li {
 }
 
 .beans-info img{
-  width:25%;
+  width:20%;
 }
 h4{
-  font-size:1.8vw;
+  font-size:22px;
 }
 h5{
-  font-size:1.6vw;
+  font-size:21px;
 }
 .option-beans p{
-  font-size:1.4vw;
+  font-size:18px;
 
 }
 img.drops{
@@ -435,7 +435,7 @@ padding: 20px 30px ;
   background-image: url("img/our\ coures/pic\ course-15.png")
 }
  h3{
-   font-size:1.9vw;
+   font-size:24px;
    margin:10px 0;
  }
  #section-courses h3{
