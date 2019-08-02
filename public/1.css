@@ -6,10 +6,12 @@
 
 body{
   font-family: "AssistantSemiBold";
-font-size: 2vw;
+font-size: 1.5vw;
 text-align: center;
  }
-    
+    .option-beans h4{
+      text-transform:uppercase;
+    }
   h2{
     text-transform: uppercase;
     font-weight: bold;
@@ -17,6 +19,10 @@ text-align: center;
   }
   #section-beans h2{
     color:rgb(194,148,138)
+  }
+  #section-about{
+    background-image: url('img/about\ us/about-01.png');
+    background-size:100%
   }
   .site-section {
     padding: 2.5em 0; }
@@ -147,7 +153,7 @@ text-align: center;
         -o-transition: .3s all ease-out;
         transition: .3s all ease-out; } 
   .site-menu img{
-      max-width: 75px;
+      max-width: 6.7vw;
   }
   .site-mobile-menu {
     width: 300px;
@@ -354,7 +360,7 @@ ol.carousel-indicators li {
   padding-top:20px;
 }
 .beans img{
-  width:110%;
+  width:90%;
   cursor: pointer;
   padding:12px;
   transition: padding 0.25s ease-in;
@@ -365,13 +371,20 @@ ol.carousel-indicators li {
 }
 
 .beans-info img{
-  width:100%;
+  width:25%;
 }
 h4{
-  font-size:2.1vw;
+  font-size:1.8vw;
 }
 h5{
-  font-size:1.9vw;
+  font-size:1.6vw;
+}
+.option-beans p{
+  font-size:1.4vw;
+
+}
+img.drops{
+  width:76%;
 }
 .beans-info{
   font-size:1.7vw;
@@ -382,21 +395,23 @@ h5{
   border-bottom:solid 1px black;
   border-right:solid 1px black;
   border-top:solid 1px black;
+  margin-bottom: 20px;
 }
 .beans-info .content{
-  /* clear:both; */
-  display:inline;
-  padding:20px;
+  clear:both;
+  /* display:inline;
+  padding:20px; */
 } 
 .option-beans{
   padding:30px;
+  padding-bottom: 0px;
   box-shadow: -1px 0px 0px 0px black ;
 }
 .option-beans:nth-child(1){
   box-shadow: 0px 0px 0px 0px black ;
 }
 .selected{
-  padding:9px !important;
+  padding:0px !important;
 } 
 .flex-row {
   display: flex;
@@ -420,15 +435,18 @@ padding: 20px 30px ;
   background-image: url("img/our\ coures/pic\ course-15.png")
 }
  h3{
-   font-size:2.2vw;
+   font-size:1.9vw;
+   margin:10px 0;
+ }
+ #section-courses h3{
+   width:80%;
  }
 #section-courses .inner{
   width:57%;
 }
 #section-courses img{
-  width:12%;
-  margin-right:15px;
-  margin-top:15px;
+  width:10%;
+  margin-right:15px; 
 }
 
 #section-contact{
@@ -451,7 +469,10 @@ padding: 20px 30px ;
 
 }
 .contactInfo h3{
-  font-size: 2.5vw;
+  font-size: 2vw;
+}
+#section-courses p{
+  margin:0;
 }
 .imgMedia{
   margin-top:15px;
