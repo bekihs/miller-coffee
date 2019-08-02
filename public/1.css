@@ -434,6 +434,12 @@ padding: 20px 30px ;
   background-size: 100% 100%;
   background-image: url("img/our\ coures/pic\ course-15.png")
 }
+form.p-5.bg-white {
+  width: 60%;
+}
+#section-contact{
+  text-align: left;
+}
  h3{
    font-size:24px;
    margin:10px 0;
@@ -509,5 +515,5 @@ padding: 20px 30px ;
 }
 
 .imgMap{
-  width:100%;
+  width:90%;
 }
