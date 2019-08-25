@@ -100,7 +100,7 @@ background-color: rgb(247,249,250);
     z-index: 1999;
     position: absolute;
     background-color: #070707;
-    opacity:0.65;
+    /* opacity:0.65; */
     width: 100%; }
     .site-navbar.transparent {
       background: transparent; }
