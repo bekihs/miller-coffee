@@ -10,7 +10,7 @@ body{
   font-family: "AssistantSemiBold";
 font-size: 20px;
 text-align: center;
-background-color: rgb(247,249,250);
+background-color: white;
  }
  
     .option-beans h4{
@@ -119,7 +119,10 @@ background-color: rgb(247,249,250);
     .site-navbar .site-navigation.border-bottom {
       border-bottom: 1px solid #f3f3f4 !important; }
     .site-navbar .site-navigation .site-menu {
-      margin-bottom: 0; }
+      margin-bottom: 0; 
+    padding-top:20px;
+  padding-bottom: 20px;
+  padding-inline-end: 40px;}
       .site-navbar .site-navigation .site-menu .active > a {
         color: #f16821; }
       .site-navbar .site-navigation .site-menu a.active {
@@ -128,7 +131,7 @@ background-color: rgb(247,249,250);
         text-decoration: none !important;
         display: inline-block;
         text-transform: uppercase;
-        font-size: 1vw; }
+        font-size: 1.1vw; }
       .site-navbar .site-navigation .site-menu > li {
         display: inline-block;
         padding: 10px 10px; }
@@ -137,7 +140,7 @@ background-color: rgb(247,249,250);
           color: #fff;
           text-decoration: none !important; }
           .line-menu{
-              width:6vw;
+              width:6.3vw;
               
               padding-bottom: 4px;
               padding-left: 20px;
@@ -431,7 +434,7 @@ img.drops{
 }
 .beans-info .content{
   clear:both;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   /* display:inline;
   padding:20px; */
 } 
@@ -459,8 +462,12 @@ img.unselected {
 .flex-row.row:before {
   display: flex;
 }
+.whitecolor{
+  color:white;
+}
 #section-courses{
   text-align: left; 
+  padding-top:80px;
 }
 form.p-5.bg-white {
   width: 60%;
@@ -487,10 +494,17 @@ form.p-5.bg-white {
    background-image: url('img/v2/pic courses2.png');
    
   background-repeat: no-repeat;
-  background-size: 90% 90%;
+  background-size: 75% 90%;
   background-position: left;
   background-position: bottom left;
 
+ }
+ .tlv{
+   font-size:20px !important;
+ }
+ #btnEmail{
+   background-color: rgb(174,202,223);
+   border-color: rgb(144,182,203);
  }
  
  .prvright{
@@ -585,7 +599,7 @@ form.p-5.bg-white {
 .busright{
   background-image: url("img/v2/pic courses1.png");
   background-repeat: no-repeat;
-  background-size: 90% 90%;
+  background-size: 75% 90%;
   background-position: right;
   background-position: bottom right;
 }
@@ -595,14 +609,23 @@ form.p-5.bg-white {
 .rightArrow{
   float: right;
     padding-right: 40%;
-    width: 150%;
+    width: 180%;
 }
 
 .leftArrow{
  
   float: left;
   padding-left: 40px;
-  width: 150%;
+  width: 180%;
   z-index: 1;
   position: relative;
+}
+
+.left img{
+  padding:0 30px 20px 0px;
+  cursor: pointer;
+}
+.right img{
+  cursor: pointer;
+  padding:0 0 20px 30px;
 }
